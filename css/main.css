@@ -1,0 +1,154 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ead4c6;
+}
+.container {
+  background-color: white;
+  margin-top: 150px;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 200px;
+  padding: 30px 50px 50px 50px;
+  border-radius: 20px;
+}
+
+img {
+  height: 200px;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-transform: capitalize;
+}
+
+.desc {
+  font-size: 15px;
+}
+
+.preparation {
+  background-color: #e8daef;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+li {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+h3 {
+  color: #8e44ad;
+}
+
+h2 {
+  color: #e59866;
+}
+
+.calories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calories h5 {
+  margin-right: 250px;
+  color: #e59866;
+}
+.calories h4 {
+  margin-left: 50px;
+}
+
+.carbs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carbs h5 {
+  margin-right: 250px;
+  color: #e59866;
+}
+.carbs h4 {
+  margin-left: 50px;
+}
+
+.protein {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.protein h4 {
+  margin-left: 50px;
+}
+.protein h5 {
+  margin-right: 250px;
+  color: #e59866;
+}
+
+.fat {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fat h4 {
+  margin-left: 50px;
+}
+.fat h5 {
+  margin-right: 250px;
+  color: #e59866;
+}
+
+.arrow-img {
+  height: 40px;
+  transition: trasform 0.3s ease;
+}
+
+.arrow-img:hover {
+  transform: translateY(-5px);
+}
+
+.up-arrow {
+  text-align: right;
+}
+
+.chef {
+  height: 40px;
+  width: auto;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.nav-buttons button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #348ceb;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-h1 {
+  margin-left: 65px;
+  color: #0cc25b;
+}
+
+.chef {
+  margin-left: 330px;
+  margin-bottom: 20px;
+}
